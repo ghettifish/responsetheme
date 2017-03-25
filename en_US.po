@@ -1,0 +1,801 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Response Theme\n"
+"POT-Creation-Date: 2012-12-30 00:38-0800\n"
+"PO-Revision-Date: 2012-12-30 00:40-0800\n"
+"Last-Translator: \n"
+"Language-Team: Organic Themes <support@organicthemes.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "Not Found, Error 404"
+msgstr ""
+
+#: ../404.php:18
+msgid "The page you are looking for no longer exists or cannot be found."
+msgstr ""
+
+#: ../archive.php:46 ../archive.php:97 ../index.php:122 ../search.php:48
+#: ../search.php:106
+msgid "Category:"
+msgstr ""
+
+#: ../archive.php:48 ../archive.php:99 ../index.php:124 ../search.php:50
+#: ../search.php:108
+msgid "Tags:"
+msgstr ""
+
+#: ../archive.php:55 ../archive.php:106 ../category.php:32 ../category.php:60
+#: ../index.php:138 ../page-archive.php:44 ../page-full.php:75
+#: ../page-guestbook.php:33 ../page-slideshow.php:92 ../page.php:77
+#: ../search.php:60 ../search.php:118
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../author.php:38
+msgid "Website:"
+msgstr ""
+
+#: ../author.php:39
+msgid "Profile:"
+msgstr ""
+
+#: ../author.php:40
+msgid "Posts by"
+msgstr ""
+
+#: ../author.php:49
+msgid "No posts by this author."
+msgstr ""
+
+#: ../comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:38 ../comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:22
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:22
+msgid "Y"
+msgstr ""
+
+#: ../footer.php:22
+msgid "All Rights Reserved"
+msgstr ""
+
+#: ../footer.php:24
+msgid "Response Theme"
+msgstr ""
+
+#: ../footer.php:24
+msgid "by"
+msgstr ""
+
+#: ../footer.php:24
+msgid "Organic Themes"
+msgstr ""
+
+#: ../footer.php:24
+msgid "WordPress Hosting"
+msgstr ""
+
+#: ../footer.php:24
+msgid "RSS Feed"
+msgstr ""
+
+#: ../format-gallery.php:23 ../format-image.php:10 ../format-standard.php:6
+#: ../format-video.php:12
+msgid "Posted on"
+msgstr ""
+
+#: ../format-gallery.php:23 ../format-image.php:10 ../format-standard.php:6
+#: ../format-video.php:12 ../index.php:60
+msgid "F j, Y"
+msgstr ""
+
+#: ../format-gallery.php:32 ../format-image.php:20 ../format-standard.php:60
+#: ../format-video.php:22 ../index.php:60
+msgid "Posted by"
+msgstr ""
+
+#: ../format-gallery.php:33 ../format-image.php:21 ../format-standard.php:61
+#: ../format-video.php:23 ../index.php:61
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../format-gallery.php:33 ../format-image.php:21 ../format-standard.php:61
+#: ../format-video.php:23 ../index.php:61
+msgid "1 Comment"
+msgstr ""
+
+#: ../format-image.php:16 ../format-standard.php:20 ../format-video.php:18
+#: ../home.php:54
+msgid "Continue Reading"
+msgstr ""
+
+#: ../format-standard.php:23 ../home.php:115 ../index.php:80
+#: ../page-full.php:37 ../page-slideshow.php:54 ../page.php:39
+msgid "Pages:"
+msgstr ""
+
+#: ../format-standard.php:28 ../home.php:120 ../index.php:85
+#: ../page-full.php:42 ../page-slideshow.php:59 ../page.php:44
+msgid "Next"
+msgstr ""
+
+#: ../format-standard.php:29 ../home.php:121 ../index.php:86
+#: ../page-full.php:43 ../page-slideshow.php:60 ../page.php:45
+msgid "Previous"
+msgstr ""
+
+#: ../format-standard.php:48 ../index.php:105 ../page-full.php:62
+#: ../page-slideshow.php:79 ../page.php:64
+msgid "Tweet"
+msgstr ""
+
+#: ../functions.php:131 ../sidebar-blog.php:7 ../sidebar.php:7
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:139
+msgid "Sidebar Blog"
+msgstr ""
+
+#: ../functions.php:173 ../functions.php:186
+msgid "Theme Options"
+msgstr ""
+
+#: ../functions.php:187
+msgid ""
+"This theme requires the Options Framework plugin installed and activated to "
+"manage your theme options."
+msgstr ""
+
+#: ../functions.php:187
+msgid "Install Now"
+msgstr ""
+
+#: ../functions.php:205
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:205 ../functions.php:245
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:226
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:231
+#, php-format
+msgid "<span class=\"comment-meta\">%2$s &nbsp;by&nbsp; %1$s </span>"
+msgstr ""
+
+#: ../functions.php:237
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../functions.php:243
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:432
+msgid "<i class=\"icon-chevron-right\"></i>"
+msgstr ""
+
+#: ../functions.php:432
+msgid "<i class=\"icon-chevron-left\"></i>"
+msgstr ""
+
+#: ../functions.php:526
+msgid "Paste Video Embed Code"
+msgstr ""
+
+#: ../functions.php:527
+msgid "Enter Vimeo, YouTube or other embed code to display a featured video."
+msgstr ""
+
+#: ../functions.php:616
+msgid "Post Title Link (For Link Format)"
+msgstr ""
+
+#: ../functions.php:676
+msgid "Search"
+msgstr ""
+
+#: ../functions.php:683
+msgid "Go"
+msgstr ""
+
+#: ../functions.php:726
+msgid "Header Menu"
+msgstr ""
+
+#: ../home.php:112 ../index.php:77 ../page-archive.php:23 ../page-full.php:34
+#: ../page-guestbook.php:28 ../page-slideshow.php:51 ../page.php:36
+msgid "Read More"
+msgstr ""
+
+#: ../index.php:60
+msgid "on"
+msgstr ""
+
+#: ../index.php:114 ../page-archive.php:41 ../page-full.php:71
+#: ../page-guestbook.php:29 ../page-slideshow.php:88 ../page.php:73
+msgid "(Edit)"
+msgstr ""
+
+#: ../options.php:32
+msgid "One"
+msgstr ""
+
+#: ../options.php:32
+msgid "Two"
+msgstr ""
+
+#: ../options.php:32
+msgid "Three"
+msgstr ""
+
+#: ../options.php:32
+msgid "Four"
+msgstr ""
+
+#: ../options.php:32
+msgid "Five"
+msgstr ""
+
+#: ../options.php:35
+msgid "French Toast"
+msgstr ""
+
+#: ../options.php:35
+msgid "Pancake"
+msgstr ""
+
+#: ../options.php:35
+msgid "Omelette"
+msgstr ""
+
+#: ../options.php:35
+msgid "Crepe"
+msgstr ""
+
+#: ../options.php:35
+msgid "Waffle"
+msgstr ""
+
+#: ../options.php:44
+msgid "1 Second"
+msgstr ""
+
+#: ../options.php:44
+msgid "2 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "4 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "6 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "8 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "10 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "12 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "14 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "16 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "18 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "20 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "30 Seconds"
+msgstr ""
+
+#: ../options.php:44
+msgid "1 Minute"
+msgstr ""
+
+#: ../options.php:44
+msgid "Hold Frame"
+msgstr ""
+
+#: ../options.php:47
+msgid "Yes"
+msgstr ""
+
+#: ../options.php:47
+msgid "No"
+msgstr ""
+
+#: ../options.php:58
+msgid "All Categories"
+msgstr ""
+
+#: ../options.php:63
+msgid "Select a page:"
+msgstr ""
+
+#: ../options.php:73
+msgid "Homepage"
+msgstr ""
+
+#: ../options.php:76
+msgid "Display Slideshow?"
+msgstr ""
+
+#: ../options.php:77
+msgid "This option displays the featured slideshow on the homepage."
+msgstr ""
+
+#: ../options.php:82
+msgid "Slideshow Category"
+msgstr ""
+
+#: ../options.php:83
+msgid "Choose the post category you wish to display in the featured slideshow."
+msgstr ""
+
+#: ../options.php:85 ../options.php:121 ../options.php:134
+msgid "Select a category:"
+msgstr ""
+
+#: ../options.php:89
+msgid "Slideshow Posts To Display"
+msgstr ""
+
+#: ../options.php:90
+msgid ""
+"Enter the number of posts you wish to display in the featured slideshow."
+msgstr ""
+
+#: ../options.php:95
+msgid "Slideshow Transition Interval"
+msgstr ""
+
+#: ../options.php:96
+msgid ""
+"Choose the transition time for the slideshow. This is the time the frame is "
+"held before transitioning to the next slide."
+msgstr ""
+
+#: ../options.php:102
+msgid "Slideshow Height"
+msgstr ""
+
+#: ../options.php:103
+msgid ""
+"Set an optional minimum height value for the slideshow in pixels (i.e. "
+"540px)."
+msgstr ""
+
+#: ../options.php:108
+msgid "Select Featured Page"
+msgstr ""
+
+#: ../options.php:109
+msgid ""
+"Choose the page you wish to display in the featured featured section beneath "
+"the slider."
+msgstr ""
+
+#: ../options.php:115
+msgid "Page Templates"
+msgstr ""
+
+#: ../options.php:118
+msgid "Blog Posts Category"
+msgstr ""
+
+#: ../options.php:119
+msgid "Choose the category you wish to display for the blog page template."
+msgstr ""
+
+#: ../options.php:125
+msgid "Blog Posts Displayed"
+msgstr ""
+
+#: ../options.php:126
+msgid ""
+"Enter the number of posts you would like displayed on the blog page "
+"template. Pagination occurs after entered number of posts."
+msgstr ""
+
+#: ../options.php:131
+msgid "Portfolio Posts Category"
+msgstr ""
+
+#: ../options.php:132
+msgid ""
+"Choose the category you wish to display for the portfolio page template."
+msgstr ""
+
+#: ../options.php:138
+msgid "Portfolio Posts Displayed"
+msgstr ""
+
+#: ../options.php:139
+msgid ""
+"Enter the number of posts you would like displayed on the portfolio page "
+"template. Pagination occurs after entered number of posts."
+msgstr ""
+
+#: ../options.php:144
+msgid "Display Settings"
+msgstr ""
+
+#: ../options.php:147
+msgid "Site Width"
+msgstr ""
+
+#: ../options.php:148
+#, php-format
+msgid ""
+"Set a maximum width of your site in pixels if desired (i.e. 980px). Enter "
+"100% for full width."
+msgstr ""
+
+#: ../options.php:153
+msgid "Display Post Featured Image?"
+msgstr ""
+
+#: ../options.php:154
+msgid "This option displays the featured image or video on individual posts."
+msgstr ""
+
+#: ../options.php:159
+msgid "Display Header Social Icons?"
+msgstr ""
+
+#: ../options.php:160
+msgid "This option displays the social icons and links in the header."
+msgstr ""
+
+#: ../options.php:165
+msgid "Display Blog Social Buttons?"
+msgstr ""
+
+#: ../options.php:166
+msgid ""
+"This option displays the Tweet, Like, Pinterest and Google+ buttons on the "
+"homepage blog and category pages."
+msgstr ""
+
+#: ../options.php:171
+msgid "Display Post Social Buttons?"
+msgstr ""
+
+#: ../options.php:172
+msgid ""
+"This option displays the Tweet, Like, Pinterest and Google+ buttons on "
+"individual posts."
+msgstr ""
+
+#: ../options.php:177
+msgid "Display Page Social Buttons?"
+msgstr ""
+
+#: ../options.php:178
+msgid ""
+"This option displays the Tweet, Like, Pinterest and Google+ buttons on "
+"individual pages."
+msgstr ""
+
+#: ../options.php:183
+msgid "Enable CSS3 Full Width Background Image?"
+msgstr ""
+
+#: ../options.php:184
+msgid ""
+"This option enables an applied background image to stretch to the full width "
+"of the browser."
+msgstr ""
+
+#: ../options.php:189
+msgid "Enable Responsive Layout?"
+msgstr ""
+
+#: ../options.php:190
+msgid ""
+"This option enables the responsive site layout for the iPhone, iPad and "
+"mobile devices."
+msgstr ""
+
+#: ../options.php:195
+msgid "Enable PressTrends?"
+msgstr ""
+
+#: ../options.php:196
+msgid "This option enables the PressTrends code in the theme functions."
+msgstr ""
+
+#: ../options.php:201
+msgid "Social"
+msgstr ""
+
+#: ../options.php:204
+msgid "Facebook Icon?"
+msgstr ""
+
+#: ../options.php:205
+msgid "This option displays the Facebook icon in the header."
+msgstr ""
+
+#: ../options.php:210
+msgid "Twitter Icon?"
+msgstr ""
+
+#: ../options.php:211
+msgid "This option displays the Twitter icon in the header."
+msgstr ""
+
+#: ../options.php:216
+msgid "Google Plus Icon?"
+msgstr ""
+
+#: ../options.php:217
+msgid "This option displays the Google Plus icon in the header."
+msgstr ""
+
+#: ../options.php:222
+msgid "Pinterest Icon?"
+msgstr ""
+
+#: ../options.php:223
+msgid "This option displays the Pinterest icon in the header."
+msgstr ""
+
+#: ../options.php:228
+msgid "LinkedIn Icon?"
+msgstr ""
+
+#: ../options.php:229
+msgid "This option displays the LinkedIn icon in the header."
+msgstr ""
+
+#: ../options.php:234
+msgid "Dribbble Icon?"
+msgstr ""
+
+#: ../options.php:235
+msgid "This option displays the Dribbble icon in the header."
+msgstr ""
+
+#: ../options.php:240
+msgid "YouTube Icon?"
+msgstr ""
+
+#: ../options.php:241
+msgid "This option displays the YouTube icon in the header."
+msgstr ""
+
+#: ../options.php:246
+msgid "RSS Icon?"
+msgstr ""
+
+#: ../options.php:247
+msgid "This option displays the RSS icon and link in the header."
+msgstr ""
+
+#: ../options.php:252
+msgid "Twitter Name"
+msgstr ""
+
+#: ../options.php:253
+msgid "Enter your Twitter username."
+msgstr ""
+
+#: ../options.php:255
+msgid "OrganicThemes"
+msgstr ""
+
+#: ../options.php:258
+msgid "Facebook Page Link"
+msgstr ""
+
+#: ../options.php:259
+msgid "Enter a link to your Facebook page or profile."
+msgstr ""
+
+#: ../options.php:261
+msgid "http://facebook.com"
+msgstr ""
+
+#: ../options.php:264
+msgid "Twitter Account Link"
+msgstr ""
+
+#: ../options.php:265
+msgid "Enter a link to your Twitter account."
+msgstr ""
+
+#: ../options.php:267
+msgid "http://twitter.com"
+msgstr ""
+
+#: ../options.php:270
+msgid "Google Plus Profile Link"
+msgstr ""
+
+#: ../options.php:271
+msgid "Enter a link to your Google Plus page."
+msgstr ""
+
+#: ../options.php:273
+msgid "https://plus.google.com/"
+msgstr ""
+
+#: ../options.php:276
+msgid "Pinterest Profile Link"
+msgstr ""
+
+#: ../options.php:277
+msgid "Enter a link to your Pinterest page."
+msgstr ""
+
+#: ../options.php:279
+msgid "http://pinterest.com"
+msgstr ""
+
+#: ../options.php:282
+msgid "LinkedIn Profile Link"
+msgstr ""
+
+#: ../options.php:283
+msgid "Enter a link to your LinkedIn profile."
+msgstr ""
+
+#: ../options.php:285
+msgid "http://www.linkedin.com/"
+msgstr ""
+
+#: ../options.php:288
+msgid "Dribbble Profile Link"
+msgstr ""
+
+#: ../options.php:289
+msgid "Enter a link to your Dribbble profile."
+msgstr ""
+
+#: ../options.php:291
+msgid "http://dribbble.com/"
+msgstr ""
+
+#: ../options.php:294
+msgid "YouTube Profile Link"
+msgstr ""
+
+#: ../options.php:295
+msgid "Enter a link to your YouTube profile."
+msgstr ""
+
+#: ../options.php:297
+msgid "http://youtube.com/"
+msgstr ""
+
+#: ../options.php:300
+msgid "Colors"
+msgstr ""
+
+#: ../options.php:303
+msgid "Link Color"
+msgstr ""
+
+#: ../options.php:304
+msgid "Select the color you wish to use for the link colors."
+msgstr ""
+
+#: ../options.php:309
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../options.php:310
+msgid "Select the color you wish to use for the link hover colors."
+msgstr ""
+
+#: ../options.php:315
+msgid "Menu Hover Color"
+msgstr ""
+
+#: ../options.php:316
+msgid "Select the color you wish to use for the menu hover background."
+msgstr ""
+
+#: ../options.php:321
+msgid "Highlight Color"
+msgstr ""
+
+#: ../options.php:322
+msgid ""
+"Select the color you wish to use for the highlight color. This refers "
+"primarily to button colors and accents."
+msgstr ""
+
+#: ../page-archive.php:26
+msgid "By Page:"
+msgstr ""
+
+#: ../page-archive.php:29
+msgid "By Month:"
+msgstr ""
+
+#: ../page-archive.php:32
+msgid "By Category:"
+msgstr ""
+
+#: ../page-archive.php:37
+msgid "By Post:"
+msgstr ""
+
+#: ../search.php:59 ../search.php:117
+msgid "No Results Found"
+msgstr ""
+
+#: ../sidebar-blog.php:6 ../sidebar.php:6
+msgid "Widget Area"
+msgstr ""
+
+#: ../sidebar-blog.php:7 ../sidebar.php:7
+msgid "This section is widgetized. To add widgets here, go to the"
+msgstr ""
+
+#: ../sidebar-blog.php:7 ../sidebar.php:7
+msgid "Widgets"
+msgstr ""
+
+#: ../sidebar-blog.php:7 ../sidebar.php:7
+msgid ""
+"panel in your WordPress admin, and add the widgets you would like to the"
+msgstr ""
+
+#: ../sidebar-blog.php:8 ../sidebar.php:8
+msgid "*This message will be overwritten after widgets have been added"
+msgstr ""
