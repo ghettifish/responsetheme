@@ -1,50 +1,32 @@
-Organic Response Theme v1.1.2.1
-http://www.organicthemes.com
+Response 2.0 Free Responsive Theme 
+=========================================
 
-INSTALL: 
-1. Upload the theme by navigating to Appearance > Themes > Install Themes within the WordPress admin. Select the theme zip file to upload.
-2. Activate the theme after uploading.
-3. Configure and save the theme options within Appearance > Theme Options. You may be required to install the Options Framework plugin if you have not already done so.
+Visit http://CyberChimps.com for more information and instructions.
 
-CHANGELOG v1.0.1:
-- Fixed jQuery conflict with WooCommerce variable products in functions-meta.php
+Theme Homepage -  http://cyberchimps.com/cyberchimps-free/
 
-CHANGELOG v1.0.2:
-- Style updates for iPad
-- Mobile drop down menu added
+Licensed under GNU General Public License v2.0 - http://www.gnu.org/licenses/gpl-2.0.html
 
-CHANGELOG v1.0.3:
-- Updated theme description
-- Updated mobile drop down menu
+Bootstrap is licensed under APLv2 - https://github.com/twitter/bootstrap/blob/master/LICENSE
 
-CHANGELOG v1.0.4:
-- Updated options description for social links
+HTML5shiv is bundled with this theme and adds HTML5 elements to browsers that are not HTML5 enabled Dual Licensed under MIT/GPL2 - http://opensource.org/licenses/mit-license.php / GNU General Public License v2.0 - http://www.gnu.org/licenses/gpl-2.0.html
 
-CHANGELOG v1.0.5:
-- Removed thumb.php call from slideshow post background custom field
-- Updated mobile menu so it displays the current page
+jCarousel is dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
 
-CHANGELOG v1.0.6:
-- Replaced wpautop filter function in shortcodes.php
+Slimbox is licensed under the MIT license - http://www.opensource.org/licenses/mit-license.php
 
-CHANGELOG v1.1:
-- Considerable debugging and updates
-- Updated scripts
-- Updated font awesome
-- Retina optimization tweaks
-- Replaced mobile menu
-- Updated shortcodes
-- Added 3 column page template
-- Removed PressTrends
-- Declared WooCommerce support
-- Updated featured video
-- Featured slideshow updates
+jQuery UI Touch Punch is dual licensed under the MIT or GPL Version 2 licenses.
 
-CHANGELOG v1.1.1:
-- Mobile style tweaks
+-------------------------------------------------------------------------------------------------
 
-CHANGELOG v1.1.2:
-- Featured slider headline style updates
+For updated documentation, walkthroughs, and support please visit http://cyberchimps.com/
 
-CHANGELOG v1.1.2.1:
-- Added font italic styling for em
+For updated docs please visit http://cyberchimps.com/
+
+For the support forum please visit: http://cyberchimps.com/forum/
+
+For more support options please visit http://cyberchimps.com/
+
+For the latest download please visit:
+
+https://github.com/cyberchimps/cyberchimpslite
