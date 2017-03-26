@@ -43,17 +43,17 @@
 </head>
 
 <body <?php if(function_exists('body_class')) body_class(); ?>>
-    
+
 <div class="container">
-    
+
     <div id="header" style="border:0;">
-    
+
     	<div class="row header_top">
 
 		<div class="one columns"></div>
-    	
+
     		<div class="six columns">
-    		
+
 	    		<?php if ( is_home() || is_front_page() ) { ?>
 	    			<?php $header_image = get_header_image(); if ( ! empty( $header_image ) ) { ?>
 		    			<h1 id="custom-header"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Home"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo('name'); ?>" /><?php bloginfo( 'name' ); ?></a></h1>
@@ -73,22 +73,22 @@
 	    				</div>
 	    			<?php } ?>
 	    		<?php } ?>
-	    		
+
     		</div>
 		<div class="nine columns text-right" style="position:relative;">
-			<img src="/wp-content/uploads/2014/02/photos.jpg" alt="" style="position:absolute;top:0;right:0;" class="photo_image" />
+			<img src="/app/uploads/2014/02/photos.jpg" alt="" style="position:absolute;top:0;right:0;" class="photo_image" />
 		</div>
 </div>
 <div class="navigation_container">
 <div class="row">
-    		
+
     		<div class="eight columns menu-holder">
-	    		
+
     			<!-- BEGIN #navigation -->
 				<nav id="navigation" class="navigation-main radius-full" role="navigation">
-				
+
 					<h1 class="menu-toggle"><?php _e( 'Menu', 'organicthemes' ); ?></h1>
-		
+
 					<?php if ( has_nav_menu( 'header-menu' ) ) {
 						wp_nav_menu( array(
 							'theme_location' => 'header-menu',
@@ -101,9 +101,9 @@
 					} else { ?>
 						<ul class="menu"><?php wp_list_pages('title_li=&depth=4'); ?></ul>
 					<?php } ?>
-		
+
 				</nav><!-- END #navigation -->
-    		
+
     		</div><!-- end ten columns -->
     	    </div><!-- end row -->
     	</div><!-- end navigation_container -->
