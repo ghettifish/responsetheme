@@ -1,78 +1,78 @@
-<?php
+<?php 
 
 // Custom fields for WP write panel
 
 function organic_metabox_create() {
     global $post;
-    $ot_metaboxes = get_option('ot_custom_template');
+    $ot_metaboxes = get_option('ot_custom_template');     
     $output = '';
     $output .= '<table class="ot_metaboxes_table">'."\n";
     foreach ($ot_metaboxes as $ot_id => $ot_metabox) {
-    if(
-            $ot_metabox['type'] == 'text'
-    OR      $ot_metabox['type'] == 'select'
-    OR      $ot_metabox['type'] == 'checkbox'
+    if(        
+            $ot_metabox['type'] == 'text' 
+    OR      $ot_metabox['type'] == 'select' 
+    OR      $ot_metabox['type'] == 'checkbox' 
     OR      $ot_metabox['type'] == 'textarea'
     OR      $ot_metabox['type'] == 'radio'
     OR      $ot_metabox['type'] == 'color'
     OR      $ot_metabox['type'] == 'upload'
     )
             $ot_metaboxvalue = get_post_meta($post->ID,$ot_metabox["name"],true);
-
+            
             if ($ot_metaboxvalue == "" || !isset($ot_metaboxvalue)) {
                 $ot_metaboxvalue = $ot_metabox['std'];
             }
             if($ot_metabox['type'] == 'text'){
-
+            
                 $output .= "\t".'<tr>';
                 $output .= "\t\t".'<th class="ot_metabox_names"><label for="'.$ot_id.'">'.$ot_metabox['label'].'</label></th>'."\n";
                 $output .= "\t\t".'<td><input class="ot_input_text" type="'.$ot_metabox['type'].'" value="'.$ot_metaboxvalue.'" name="organic_'.$ot_metabox["name"].'" id="'.$ot_id.'"/>';
                 $output .= '<span class="ot_metabox_desc">'.$ot_metabox['desc'].'</span></td>'."\n";
-                $output .= "\t".'<td></td></tr>'."\n";
-
+                $output .= "\t".'<td></td></tr>'."\n";  
+                              
             }
-
+            
             elseif ($ot_metabox['type'] == 'textarea'){
-
+            
                 $output .= "\t".'<tr>';
                 $output .= "\t\t".'<th class="ot_metabox_names"><label for="'.$ot_metabox.'">'.$ot_metabox['label'].'</label></th>'."\n";
                 $output .= "\t\t".'<td><textarea class="ot_input_textarea" name="organic_'.$ot_metabox["name"].'" id="'.$ot_id.'">' . $ot_metaboxvalue . '</textarea>';
                 $output .= '<span class="ot_metabox_desc">'.$ot_metabox['desc'].'</span></td>'."\n";
-                $output .= "\t".'<td></td></tr>'."\n";
-
+                $output .= "\t".'<td></td></tr>'."\n";  
+                              
             }
 
             elseif ($ot_metabox['type'] == 'select'){
-
+                       
                 $output .= "\t".'<tr>';
                 $output .= "\t\t".'<th class="ot_metabox_names"><label for="'.$ot_id.'">'.$ot_metabox['label'].'</label></th>'."\n";
                 $output .= "\t\t".'<td><select class="ot_input_select" id="'.$ot_id.'" name="organic_'. $ot_metabox["name"] .'">';
                 $output .= '<option value="">Select to return to default</option>';
-
+                
                 $array = $ot_metabox['options'];
-
+                
                 if($array){
-
+                
                     foreach ( $array as $id => $option ) {
                         $selected = '';
-
-
-                        if($ot_metabox['default'] == $option && empty($ot_metaboxvalue)){$selected = 'selected="selected"';}
+                       
+                                                       
+                        if($ot_metabox['default'] == $option && empty($ot_metaboxvalue)){$selected = 'selected="selected"';} 
                         else  {$selected = '';}
-
+                        
                         if($ot_metaboxvalue == $option){$selected = 'selected="selected"';}
-                        else  {$selected = '';}
-
+                        else  {$selected = '';}  
+                        
                         $output .= '<option value="'. $option .'" '. $selected .'>' . $option .'</option>';
                     }
                 }
-
+                
                 $output .= '</select><span class="ot_metabox_desc">'.$ot_metabox['desc'].'</span></td></td><td></td>'."\n";
                 $output .= "\t".'</tr>'."\n";
             }
-
+            
             elseif ($ot_metabox['type'] == 'checkbox'){
-
+            
                 if($ot_metaboxvalue == 'true') { $checked = ' checked="checked"';} else {$checked='';}
 
                 $output .= "\t".'<tr>';
@@ -81,52 +81,52 @@ function organic_metabox_create() {
                 $output .= '<span class="ot_metabox_desc" style="display:inline">'.isset($ot_metabox['desc']).'</span></td></td><td></td>'."\n";
                 $output .= "\t".'</tr>'."\n";
             }
-
+            
             elseif ($ot_metabox['type'] == 'radio'){
-
+            
                 $array = $ot_metabox['options'];
-
+            
             if($array){
-
+            
             $output .= "\t".'<tr>';
             $output .= "\t\t".'<th class="ot_metabox_names"><label for="'.$ot_id.'">'.$ot_metabox['label'].'</label></th>'."\n";
             $output .= "\t\t".'<td>';
-
+            
                 foreach ( $array as $id => $option ) {
-
+                              
                     if($ot_metaboxvalue == $id) { $checked = ' checked="checked"';} else {$checked='';}
 
                         $output .= '<input type="radio" '.$checked.' value="' . $id . '" class="ot_input_radio"  id="'.$ot_id.'" name="organic_'. $ot_metabox["name"] .'" />';
                         $output .= '<span class="ot_input_radio_desc" style="display:inline">'. $option .'</span><div class="ot_spacer"></div>';
                     }
                     $output .=  '</td></td><td></td>'."\n";
-                    $output .= "\t".'</tr>'."\n";
+                    $output .= "\t".'</tr>'."\n";    
                  }
             }
-
+            
             elseif($ot_metabox['type'] == 'color'){
-
+            
                 $output .= "\t".'<tr>';
                 $output .= "\t\t".'<th class="ot_metabox_names"><label for="'.$ot_id.'">'.$ot_metabox['label'].'</label></th>'."\n";
                 $output .= "\t\t".'<td><input class="ot_input_color" type="text" value="'.$ot_metaboxvalue.'" name="organic_'. $ot_metabox["name"] .'" id="color"/>
                 			<div id="colorpicker"></div>';
                 $output .= '<span class="ot_metabox_desc">'.$ot_metabox['desc'].'</span></td>'."\n";
-                $output .= "\t".'<td></td></tr>'."\n";
-
+                $output .= "\t".'<td></td></tr>'."\n";  
+                              
             }
-
+            
             elseif($ot_metabox['type'] == 'upload')
             {
-
+            
                 $output .= "\t".'<tr>';
                 $output .= "\t\t".'<th class="ot_metabox_names"><label for="'.$ot_id.'">'.$ot_metabox['label'].'</label></th>'."\n";
                 $output .= "\t\t".'<td class="ot_metabox_fields">'. organic_uploader_custom_fields($post->ID,$ot_metabox["name"],$ot_metabox["default"],$ot_metabox["desc"]);
                 $output .= '</td>'."\n";
                 $output .= "\t".'</tr>'."\n";
-
+                
             }
         }
-
+    
     $output .= '</table>'."\n\n";
     echo $output;
 }
@@ -144,19 +144,19 @@ function organic_uploader_custom_fields($pID,$id,$std,$desc){
 return $uploader;
 }
 
-function organic_metabox_handle(){
-
+function organic_metabox_handle(){   
+    
     global $globals;
-    $ot_metaboxes = get_option('ot_custom_template');
+    $ot_metaboxes = get_option('ot_custom_template');     
     $pID = $_POST['post_ID'];
     $upload_tracking = array();
-
-    if ($_POST['action'] == 'editpost'){
+    
+    if ($_POST['action'] == 'editpost'){                                   
         foreach ($ot_metaboxes as $ot_metabox) { // On Save.. this gets looped in the header response and saves the values submitted
             if($ot_metabox['type'] == 'text' OR $ot_metabox['type'] == 'select' OR $ot_metabox['type'] == 'radio' OR $ot_metabox['type'] == 'checkbox' OR $ot_metabox['type'] == 'textarea' OR $ot_metabox['type'] == 'color' ) // Normal Type Things...
                 {
                     $var = "organic_".$ot_metabox["name"];
-                    if (isset($_POST[$var])) {
+                    if (isset($_POST[$var])) {            
                         if( get_post_meta( $pID, $ot_metabox["name"] ) == "" )
                             add_post_meta($pID, $ot_metabox["name"], $_POST[$var], true );
                         elseif($_POST[$var] != get_post_meta($pID, $ot_metabox["name"], true))
@@ -165,26 +165,26 @@ function organic_metabox_handle(){
                            delete_post_meta($pID, $ot_metabox["name"], get_post_meta($pID, $ot_metabox["name"], true));
                         }
                     }
-                    elseif(!isset($_POST[$var]) && $ot_metabox['type'] == 'checkbox') {
-                        update_post_meta($pID, $ot_metabox["name"], 'false');
-                    }
+                    elseif(!isset($_POST[$var]) && $ot_metabox['type'] == 'checkbox') { 
+                        update_post_meta($pID, $ot_metabox["name"], 'false'); 
+                    }      
                     else {
                           delete_post_meta($pID, $ot_metabox["name"], get_post_meta($pID, $ot_metabox["name"], true)); // Deletes check boxes OR no $_POST
-                    }
+                    }    
                 }
-
+          
             elseif($ot_metabox['type'] == 'upload') // So, the upload inputs will do this rather
                 {
                 $id = $ot_metabox['name'];
                 $override['action'] = 'editpost';
-                    if(!empty($_FILES['attachement_'.$id]['name'])){ //New upload
-                           $uploaded_file = wp_handle_upload($_FILES['attachement_' . $id ],$override);
+                    if(!empty($_FILES['attachement_'.$id]['name'])){ //New upload          
+                           $uploaded_file = wp_handle_upload($_FILES['attachement_' . $id ],$override); 
                            $uploaded_file['option_name']  = $ot_metabox['label'];
                            $upload_tracking[] = $uploaded_file;
                            update_post_meta($pID, $id, $uploaded_file['url']);
                     }
                     elseif(empty( $_FILES['attachement_'.$id]['name']) && isset($_POST[ $id ])){
-                        update_post_meta($pID, $id, $_POST[ $id ]);
+                        update_post_meta($pID, $id, $_POST[ $id ]); 
                     }
                     elseif(isset($_POST[ $id ]) == '')  { delete_post_meta($pID, $id, get_post_meta($pID, $id, true));
                     }
@@ -219,7 +219,7 @@ function organic_metabox_header(){
         jQuery('form#post').attr('encoding','multipart/form-data');
         jQuery('.ot_metaboxes_table th:last, .ot_metaboxes_table td:last').css('border','0');
         var val = jQuery('input#title').attr('value');
-        if(val == ''){
+        if(val == ''){ 
         jQuery('.ot_metabox_fields .button-highlighted').after("<em class='ot_red_note'>Please add a Title before uploading a file</em>");
         };
         <?php //Errors
